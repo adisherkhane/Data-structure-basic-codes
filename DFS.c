@@ -8,8 +8,9 @@
                     {0,0,1,1,0,1,1},
                     {0,0,0,0,1,0,0},
                     {0,0,0,0,1,0,0}};
-int n;
-                    scanf("%d",&n);
+    int n;
+    printf("\nenter starting point :");
+    scanf("%d",&n);
     DFS(a,v,n);
  }
 
